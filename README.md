@@ -62,7 +62,7 @@ As the creator of the Raydium Volume Bot and other advanced trading tools, I am 
 
 #### Discord: [@knightworlds](https://discordapp.com/users/965772784653443215)
 
-#### Twitter: [@knightworlds](https://twitter.com/knightworlds)   
+#### Twitter: [@knightworlds127](https://twitter.com/knightworlds127)   
 
 #### Telegram: [@knightworlds](https://t.me/knightworlds)   
 
