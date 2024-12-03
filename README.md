@@ -55,7 +55,6 @@ npm install
 
 3. Configure the environment variables
 
-Rename the .env.example file to .env and set the necessary environment variables, including:
 - RPC and WSS configurations
 - The secret key for the main wallet
 - Jito authentication keypair
