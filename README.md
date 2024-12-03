@@ -1,6 +1,6 @@
 # Raydium Volume Bot
 
-Welcome to the Raydium Volume Bot! This innovative tool is designed to automate trading activities on the Raydium platform, increasing volume and liquidity by distributing SOL to multiple wallets for continuous buying and selling. It offers a range of powerful features to optimize trading efficiency and market impact.
+Welcome to the Raydium Volume Bot! This innovative tool is designed to automate trading activities on the Raydium platform, increasing volume and liquidity by distributing SOL to multiple wallets for continuous buying and selling. It offers a range of powerful features to optimize trading efficiency and market impact. And add feature to boost volume in Marketplace.
 
 ## Key Features
 
@@ -8,6 +8,7 @@ Welcome to the Raydium Volume Bot! This innovative tool is designed to automate 
 - **Automated SOL Distribution**: Seamlessly distribute SOL to each new wallet, ensuring balanced trading across accounts.
 - **Endless Buy and Sell Cycles**: The bot continuously buys and sells assets, creating perpetual trading volume without manual intervention.
 - **Advanced Swapping with Jupiter V6**: Leverages the Jupiter V6 swap aggregator to execute efficient and optimized token swaps.
+- **Seamless Swapping with Meteora SDK**: Executes swaps using the advanced capabilities of Meteora DLMM and Dynamic SDK for optimal performance.
 - **Configurable Parameters**: Tailor buy amounts, trade intervals, distribution settings, and more to suit your specific trading strategy.
 
 ## Getting Started
@@ -79,6 +80,7 @@ npm run start
 ### 🚀 Improvements in the Updated Version
 
 - ✅ **Automated SOL Transfers to New Wallets**: After completing a buy and sell cycle on one wallet, the bot automatically transfers SOL to a new wallet and continues trading there. This increases the number of unique wallets involved in the trading process, making the volume appear more organic.
+- ✅ **Enhanced Holder Growth**: Generates new wallets with each buy and sell cycle, effectively increasing the total number of token holders.
 - ✅ **Increased Pool Makers**: The new version creates a fresh wallet after each round of buying and selling, contributing to a more substantial number of market makers and increasing liquidity.
 - ✅ **Selling Tokens Before Gathering SOL**: The bot now ensures that any remaining tokens are sold before gathering, preventing unused tokens from accumulating in the wallet. This strategy also reclaims token account rent fees (0.00203 SOL).
 - ✅ **More Buys than Sells**: The updated bot executes two buys for every sell, creating buy pressure by increasing the number of buy transactions compared to sells. This results in more favorable market conditions.
