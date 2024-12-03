@@ -66,6 +66,10 @@ Once everything is set up, you can start the bot with the following command:
 npm run start
 ```
 
+## Working Demo
+
+https://github.com/user-attachments/assets/2d74b8fd-70da-4b72-8b18-90fa68dd9a7d
+
 ## Key Differences Between the Previous and Updated Versions
 
 
