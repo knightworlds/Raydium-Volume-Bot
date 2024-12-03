@@ -68,7 +68,7 @@ npm run start
 
 ## Working Demo
 
-https://github.com/user-attachments/assets/2d74b8fd-70da-4b72-8b18-90fa68dd9a7d
+https://github.com/user-attachments/assets/bd283bec-f778-4634-9d55-27ce01bd6050
 
 ## Key Differences Between the Previous and Updated Versions
 
