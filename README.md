@@ -1,4 +1,4 @@
-# Raydium Volume Bot V1
+# Raydium Volume Bot
 
 Welcome to the Raydium Volume Bot! This innovative tool is designed to automate trading activities on the Raydium platform, increasing volume and liquidity by distributing SOL to multiple wallets for continuous buying and selling. It offers a range of powerful features to optimize trading efficiency and market impact.
 
@@ -7,20 +7,51 @@ Welcome to the Raydium Volume Bot! This innovative tool is designed to automate 
 - **Automated Wallet Creation**: Effortlessly generate multiple wallets for decentralized trading and volume expansion.
 - **Automated SOL Distribution**: Seamlessly distribute SOL to each new wallet, ensuring balanced trading across accounts.
 - **Endless Buy and Sell Cycles**: The bot continuously buys and sells assets, creating perpetual trading volume without manual intervention.
+- **Advanced Swapping with Jupiter V6**: Leverages the Jupiter V6 swap aggregator to execute efficient and optimized token swaps.
 - **Configurable Parameters**: Tailor buy amounts, trade intervals, distribution settings, and more to suit your specific trading strategy.
 
 ## Getting Started
+
+### 📋 Environment Variables
+
+The bot uses the following environment variables. Rename the `.env.copy` file to `.env` and set the necessary variables.
+
+```env
+PRIVATE_KEY=                 # Private key for the main wallet
+RPC_ENDPOINT=                # RPC endpoint for Solana
+RPC_WEBSOCKET_ENDPOINT=      # RPC WebSocket endpoint for Solana
+
+####### BUY SETTING #######
+BUY_UPPER_PERCENT=60         # Higher percent limit of SOL that can be used to buy token in wallet
+BUY_LOWER_PERCENT=30         # Lower percent limit of SOL (30 means, it buys with larger than 30% of SOL in wallet when buy)
+
+BUY_INTERVAL_MAX=30          # Upper limit of seconds to wait after second buy
+BUY_INTERVAL_MIN=2           # Lower limit of seconds (it waits from 2 to 30 secs after second buy before second buy)
+
+SELL_INTERVAL_MAX=30         # Upper limit of seconds to wait after sell
+SELL_INTERVAL_MIN=3          # Lower limit of seconds (it waits from 2 to 30 secs after sell to transfer SOL)
+
+DISTRIBUTE_WALLET_NUM=4      # Number of wallets that run in parallel which makes volume (max: 20)
+
+SLIPPAGE=50                  # Slippage in percent
+
+TOKEN_MINT=                  # Mint address of token to increase volume
+```
+
+
 1. Clone the repository
 To begin, clone the repository to your local machine.
 ```
-git clone https://github.com/knightworlds/Raydium-Volume-Bot-V1.git
-cd Raydium-Volume-Bot-V1
+git clone https://github.com/knightworlds/Raydium-Volume-Bot.git
+cd Raydium-Volume-Bot
 ```
+
 2. Install dependencies
 Install the required dependencies using npm:
 ```
 npm install
 ```
+
 3. Configure the environment variables
 
 Rename the .env.example file to .env and set the necessary environment variables, including:

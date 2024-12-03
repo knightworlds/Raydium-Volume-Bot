@@ -1,13 +1,12 @@
 {
-  "name": "raydium-volume-bot",
-  "author": "evilgon",
+  "name": "volume-bot",
+  "author": {
+    "email": "rabnail.sol@gmail.com",
+    "name": "Ranail"
+  },
   "scripts": {
-    "start": "ts-node index.ts",
-    "sell": "ts-node sell.ts",
-    "tsc": "tsc --noEmit",
-    "gather": "ts-node gather.ts",
-    "status": "ts-node status.ts",
-    "massive": "ts-node massiveBuy.ts"
+    "start": "node index.js",
+    "gather": "node gather.js"
   },
   "dependencies": {
     "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
@@ -24,11 +23,5 @@
     "pino": "^8.18.0",
     "pino-pretty": "^10.3.1",
     "pino-std-serializers": "^6.2.2"
-  },
-  "devDependencies": {
-    "@types/bn.js": "^5.1.5",
-    "prettier": "^3.2.4",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
   }
 }
