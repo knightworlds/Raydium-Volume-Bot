@@ -116,6 +116,7 @@ As the creator of the Raydium Volume Bot and other advanced trading tools, I am 
 - Shit-token Launcher using raydium bundler
 - Holder booster
 - Copytrading bot
-- Arbitrage bot 
+- Arbitrage bot
+- [Solana Pumpfun Smart Contract](https://github.com/knightworlds/solana-pumpfun-smart-contract)
 
 Let’s work together to boost your trading strategies!
